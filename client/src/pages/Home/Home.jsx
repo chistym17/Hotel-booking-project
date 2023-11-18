@@ -1,10 +1,13 @@
+import Categories from "../../components/Categories/Categories"
 import Rooms from "../../components/Room/Rooms"
 
 const Home = () => {
   return (
     <div>
       <h1>Welcome to StayVista</h1>
-     <Rooms></Rooms>
+      <Categories></Categories>
+      <Rooms></Rooms>
+
     </div>
   )
 }
